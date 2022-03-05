@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517D23E6D6A33E5B5AEBF93A /* Pods_telemat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802BCE24CCE5AB96BEC344E9 /* Pods_telemat.framework */; };
+		7F8ADB141F55BF3418168E02 /* Pods_Telemat_WidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6505B3ABC6B98AAD8931C3 /* Pods_Telemat_WidgetExtension.framework */; };
+		ED3D261927AD4FC8001A8501 /* siren.caf in Resources */ = {isa = PBXBuildFile; fileRef = ED3D261827AD4FC8001A8501 /* siren.caf */; };
+		ED6C902C27AB09E3008EA10A /* TMValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C902B27AB09E3008EA10A /* TMValue.swift */; };
+		ED6C902D27AB09E3008EA10A /* TMValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C902B27AB09E3008EA10A /* TMValue.swift */; };
+		ED95EB0A27B026BA00058B2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95EB0927B026B900058B2F /* SceneDelegate.swift */; };
+		ED95EB0C27B029DF00058B2F /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95EB0B27B029DF00058B2F /* MainNavigationController.swift */; };
+		EDEDD0F027A13DE5002AACD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD0EF27A13DE5002AACD0 /* AppDelegate.swift */; };
+		EDEDD0F427A13DE5002AACD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD0F327A13DE5002AACD0 /* ViewController.swift */; };
+		EDEDD0F727A13DE5002AACD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEDD0F527A13DE5002AACD0 /* Main.storyboard */; };
+		EDEDD0F927A13DE7002AACD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEDD0F827A13DE7002AACD0 /* Assets.xcassets */; };
+		EDEDD0FC27A13DE7002AACD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEDD0FA27A13DE7002AACD0 /* LaunchScreen.storyboard */; };
+		EDEDD10A27A13F2A002AACD0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEDD10927A13F2A002AACD0 /* WidgetKit.framework */; };
+		EDEDD10C27A13F2A002AACD0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEDD10B27A13F2A002AACD0 /* SwiftUI.framework */; };
+		EDEDD10F27A13F2A002AACD0 /* Telemat_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD10E27A13F2A002AACD0 /* Telemat_Widget.swift */; };
+		EDEDD11227A13F2C002AACD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEDD11127A13F2C002AACD0 /* Assets.xcassets */; };
+		EDEDD11427A13F2C002AACD0 /* Telemat_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD11027A13F2A002AACD0 /* Telemat_Widget.intentdefinition */; };
+		EDEDD11527A13F2C002AACD0 /* Telemat_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD11027A13F2A002AACD0 /* Telemat_Widget.intentdefinition */; };
+		EDEDD11827A13F2C002AACD0 /* Telemat WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDEDD10727A13F2A002AACD0 /* Telemat WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDEDD11F27A16F9C002AACD0 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD11E27A16F9C002AACD0 /* ApiService.swift */; };
+		EDEDD12127A1B570002AACD0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEDD12027A1B570002AACD0 /* GoogleService-Info.plist */; };
+		EDEDD12227A1B570002AACD0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEDD12027A1B570002AACD0 /* GoogleService-Info.plist */; };
+		EDEDD12427A978ED002AACD0 /* TMResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEDD12327A978ED002AACD0 /* TMResponse.swift */; };
+		EDF64E0827CB971400F24781 /* WebView+cookie-session.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64E0727CB971400F24781 /* WebView+cookie-session.swift */; };
+		EDF64E0A27CBC52900F24781 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64E0927CBC52900F24781 /* UserDefaults.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDEDD11627A13F2C002AACD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEDD0E427A13DE5002AACD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEDD10627A13F2A002AACD0;
+			remoteInfo = "Telemat WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDEDD11C27A13F2C002AACD0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDEDD11827A13F2C002AACD0 /* Telemat WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DCE84B793485BCBDA3A9337 /* Pods-Telemat WidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telemat WidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-Telemat WidgetExtension/Pods-Telemat WidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		802BCE24CCE5AB96BEC344E9 /* Pods_telemat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telemat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6505B3ABC6B98AAD8931C3 /* Pods_Telemat_WidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telemat_WidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F562236BD8514C211C5C1E /* Pods-Telemat WidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telemat WidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-Telemat WidgetExtension/Pods-Telemat WidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B4DE532B36FD890F9970D628 /* Pods-telemat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telemat.release.xcconfig"; path = "Target Support Files/Pods-telemat/Pods-telemat.release.xcconfig"; sourceTree = "<group>"; };
+		DA02853AE5A4BBCF1D1F4C30 /* Pods-telemat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telemat.debug.xcconfig"; path = "Target Support Files/Pods-telemat/Pods-telemat.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3D261827AD4FC8001A8501 /* siren.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = siren.caf; sourceTree = "<group>"; };
+		ED6C902B27AB09E3008EA10A /* TMValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMValue.swift; sourceTree = "<group>"; };
+		ED6C902E27AB0A43008EA10A /* Telemat WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Telemat WidgetExtension.entitlements"; sourceTree = "<group>"; };
+		ED95EB0927B026B900058B2F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED95EB0B27B029DF00058B2F /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		EDEDD0EC27A13DE5002AACD0 /* telemat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telemat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEDD0EF27A13DE5002AACD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDEDD0F327A13DE5002AACD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDEDD0F627A13DE5002AACD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDEDD0F827A13DE7002AACD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDEDD0FB27A13DE7002AACD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDEDD0FD27A13DE7002AACD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEDD10727A13F2A002AACD0 /* Telemat WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Telemat WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEDD10927A13F2A002AACD0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EDEDD10B27A13F2A002AACD0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EDEDD10E27A13F2A002AACD0 /* Telemat_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telemat_Widget.swift; sourceTree = "<group>"; };
+		EDEDD11027A13F2A002AACD0 /* Telemat_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Telemat_Widget.intentdefinition; sourceTree = "<group>"; };
+		EDEDD11127A13F2C002AACD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDEDD11327A13F2C002AACD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEDD11D27A146B8002AACD0 /* telemat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = telemat.entitlements; sourceTree = "<group>"; };
+		EDEDD11E27A16F9C002AACD0 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		EDEDD12027A1B570002AACD0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDEDD12327A978ED002AACD0 /* TMResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMResponse.swift; sourceTree = "<group>"; };
+		EDF64E0727CB971400F24781 /* WebView+cookie-session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebView+cookie-session.swift"; sourceTree = "<group>"; };
+		EDF64E0927CBC52900F24781 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDEDD0E927A13DE5002AACD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517D23E6D6A33E5B5AEBF93A /* Pods_telemat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEDD10427A13F2A002AACD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEDD10C27A13F2A002AACD0 /* SwiftUI.framework in Frameworks */,
+				EDEDD10A27A13F2A002AACD0 /* WidgetKit.framework in Frameworks */,
+				7F8ADB141F55BF3418168E02 /* Pods_Telemat_WidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E8E7B695A1F199477E3A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F562236BD8514C211C5C1E /* Pods-Telemat WidgetExtension.debug.xcconfig */,
+				4DCE84B793485BCBDA3A9337 /* Pods-Telemat WidgetExtension.release.xcconfig */,
+				DA02853AE5A4BBCF1D1F4C30 /* Pods-telemat.debug.xcconfig */,
+				B4DE532B36FD890F9970D628 /* Pods-telemat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDEDD0E327A13DE5002AACD0 = {
+			isa = PBXGroup;
+			children = (
+				ED3D261827AD4FC8001A8501 /* siren.caf */,
+				ED6C902E27AB0A43008EA10A /* Telemat WidgetExtension.entitlements */,
+				EDEDD0EE27A13DE5002AACD0 /* telemat */,
+				EDEDD10D27A13F2A002AACD0 /* Telemat Widget */,
+				EDEDD10827A13F2A002AACD0 /* Frameworks */,
+				EDEDD0ED27A13DE5002AACD0 /* Products */,
+				70E8E7B695A1F199477E3A38 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEDD0ED27A13DE5002AACD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEDD0EC27A13DE5002AACD0 /* telemat.app */,
+				EDEDD10727A13F2A002AACD0 /* Telemat WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEDD0EE27A13DE5002AACD0 /* telemat */ = {
+			isa = PBXGroup;
+			children = (
+				EDEDD11D27A146B8002AACD0 /* telemat.entitlements */,
+				EDEDD0EF27A13DE5002AACD0 /* AppDelegate.swift */,
+				ED95EB0927B026B900058B2F /* SceneDelegate.swift */,
+				ED95EB0B27B029DF00058B2F /* MainNavigationController.swift */,
+				EDEDD0F327A13DE5002AACD0 /* ViewController.swift */,
+				EDF64E0727CB971400F24781 /* WebView+cookie-session.swift */,
+				EDEDD11E27A16F9C002AACD0 /* ApiService.swift */,
+				EDF64E0927CBC52900F24781 /* UserDefaults.swift */,
+				EDEDD12327A978ED002AACD0 /* TMResponse.swift */,
+				ED6C902B27AB09E3008EA10A /* TMValue.swift */,
+				EDEDD0F527A13DE5002AACD0 /* Main.storyboard */,
+				EDEDD0F827A13DE7002AACD0 /* Assets.xcassets */,
+				EDEDD12027A1B570002AACD0 /* GoogleService-Info.plist */,
+				EDEDD0FA27A13DE7002AACD0 /* LaunchScreen.storyboard */,
+				EDEDD0FD27A13DE7002AACD0 /* Info.plist */,
+			);
+			path = telemat;
+			sourceTree = "<group>";
+		};
+		EDEDD10827A13F2A002AACD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDEDD10927A13F2A002AACD0 /* WidgetKit.framework */,
+				EDEDD10B27A13F2A002AACD0 /* SwiftUI.framework */,
+				8F6505B3ABC6B98AAD8931C3 /* Pods_Telemat_WidgetExtension.framework */,
+				802BCE24CCE5AB96BEC344E9 /* Pods_telemat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDEDD10D27A13F2A002AACD0 /* Telemat Widget */ = {
+			isa = PBXGroup;
+			children = (
+				EDEDD10E27A13F2A002AACD0 /* Telemat_Widget.swift */,
+				EDEDD11027A13F2A002AACD0 /* Telemat_Widget.intentdefinition */,
+				EDEDD11127A13F2C002AACD0 /* Assets.xcassets */,
+				EDEDD11327A13F2C002AACD0 /* Info.plist */,
+			);
+			path = "Telemat Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEDD0EB27A13DE5002AACD0 /* telemat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEDD10027A13DE7002AACD0 /* Build configuration list for PBXNativeTarget "telemat" */;
+			buildPhases = (
+				332B6194557A55632941C434 /* [CP] Check Pods Manifest.lock */,
+				EDEDD0E827A13DE5002AACD0 /* Sources */,
+				EDEDD0E927A13DE5002AACD0 /* Frameworks */,
+				EDEDD0EA27A13DE5002AACD0 /* Resources */,
+				EDEDD11C27A13F2C002AACD0 /* Embed App Extensions */,
+				2C16237446F2B99DBD388ED4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEDD11727A13F2C002AACD0 /* PBXTargetDependency */,
+			);
+			name = telemat;
+			productName = telemat;
+			productReference = EDEDD0EC27A13DE5002AACD0 /* telemat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDEDD10627A13F2A002AACD0 /* Telemat WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEDD11927A13F2C002AACD0 /* Build configuration list for PBXNativeTarget "Telemat WidgetExtension" */;
+			buildPhases = (
+				92D7C42AEB4F2305966E33B0 /* [CP] Check Pods Manifest.lock */,
+				EDEDD10327A13F2A002AACD0 /* Sources */,
+				EDEDD10427A13F2A002AACD0 /* Frameworks */,
+				EDEDD10527A13F2A002AACD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telemat WidgetExtension";
+			productName = "Telemat WidgetExtension";
+			productReference = EDEDD10727A13F2A002AACD0 /* Telemat WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEDD0E427A13DE5002AACD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDEDD0EB27A13DE5002AACD0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EDEDD10627A13F2A002AACD0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EDEDD0E727A13DE5002AACD0 /* Build configuration list for PBXProject "telemat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDEDD0E327A13DE5002AACD0;
+			productRefGroup = EDEDD0ED27A13DE5002AACD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEDD0EB27A13DE5002AACD0 /* telemat */,
+				EDEDD10627A13F2A002AACD0 /* Telemat WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEDD0EA27A13DE5002AACD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEDD0FC27A13DE7002AACD0 /* LaunchScreen.storyboard in Resources */,
+				EDEDD12127A1B570002AACD0 /* GoogleService-Info.plist in Resources */,
+				ED3D261927AD4FC8001A8501 /* siren.caf in Resources */,
+				EDEDD0F927A13DE7002AACD0 /* Assets.xcassets in Resources */,
+				EDEDD0F727A13DE5002AACD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEDD10527A13F2A002AACD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEDD11227A13F2C002AACD0 /* Assets.xcassets in Resources */,
+				EDEDD12227A1B570002AACD0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C16237446F2B99DBD388ED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemat/Pods-telemat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemat/Pods-telemat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-telemat/Pods-telemat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		332B6194557A55632941C434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telemat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D7C42AEB4F2305966E33B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telemat WidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEDD0E827A13DE5002AACD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED95EB0C27B029DF00058B2F /* MainNavigationController.swift in Sources */,
+				EDEDD0F427A13DE5002AACD0 /* ViewController.swift in Sources */,
+				EDF64E0827CB971400F24781 /* WebView+cookie-session.swift in Sources */,
+				ED6C902C27AB09E3008EA10A /* TMValue.swift in Sources */,
+				EDEDD11F27A16F9C002AACD0 /* ApiService.swift in Sources */,
+				EDEDD0F027A13DE5002AACD0 /* AppDelegate.swift in Sources */,
+				EDF64E0A27CBC52900F24781 /* UserDefaults.swift in Sources */,
+				EDEDD12427A978ED002AACD0 /* TMResponse.swift in Sources */,
+				EDEDD11527A13F2C002AACD0 /* Telemat_Widget.intentdefinition in Sources */,
+				ED95EB0A27B026BA00058B2F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEDD10327A13F2A002AACD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEDD10F27A13F2A002AACD0 /* Telemat_Widget.swift in Sources */,
+				ED6C902D27AB09E3008EA10A /* TMValue.swift in Sources */,
+				EDEDD11427A13F2C002AACD0 /* Telemat_Widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDEDD11727A13F2C002AACD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEDD10627A13F2A002AACD0 /* Telemat WidgetExtension */;
+			targetProxy = EDEDD11627A13F2C002AACD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDEDD0F527A13DE5002AACD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEDD0F627A13DE5002AACD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDEDD0FA27A13DE7002AACD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEDD0FB27A13DE7002AACD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEDD0FE27A13DE7002AACD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDEDD0FF27A13DE7002AACD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDEDD10127A13DE7002AACD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA02853AE5A4BBCF1D1F4C30 /* Pods-telemat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = telemat/telemat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 92CLNVKSMW;
+				INFOPLIST_FILE = telemat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dreamteam.telemat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDEDD10227A13DE7002AACD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4DE532B36FD890F9970D628 /* Pods-telemat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = telemat/telemat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 92CLNVKSMW;
+				INFOPLIST_FILE = telemat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dreamteam.telemat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EDEDD11A27A13F2C002AACD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F562236BD8514C211C5C1E /* Pods-Telemat WidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Telemat WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 92CLNVKSMW;
+				INFOPLIST_FILE = "Telemat Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.dreamteam.telemat.Telemat-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDEDD11B27A13F2C002AACD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCE84B793485BCBDA3A9337 /* Pods-Telemat WidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Telemat WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 92CLNVKSMW;
+				INFOPLIST_FILE = "Telemat Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.dreamteam.telemat.Telemat-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEDD0E727A13DE5002AACD0 /* Build configuration list for PBXProject "telemat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEDD0FE27A13DE7002AACD0 /* Debug */,
+				EDEDD0FF27A13DE7002AACD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEDD10027A13DE7002AACD0 /* Build configuration list for PBXNativeTarget "telemat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEDD10127A13DE7002AACD0 /* Debug */,
+				EDEDD10227A13DE7002AACD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEDD11927A13F2C002AACD0 /* Build configuration list for PBXNativeTarget "Telemat WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEDD11A27A13F2C002AACD0 /* Debug */,
+				EDEDD11B27A13F2C002AACD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDEDD0E427A13DE5002AACD0 /* Project object */;
+}
